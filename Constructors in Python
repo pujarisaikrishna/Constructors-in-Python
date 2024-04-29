@@ -1,0 +1,39 @@
+#Parametrized Constructor
+class data:
+    def __init__(self, name):
+        self.name = name
+
+    def display(self):
+        print("name :", self.name)
+
+d1 = data("john")
+d1.display()
+
+
+class group:
+    def __init__(self, count):
+        self.members = count
+
+    def display(self):
+        print("no.of groups is", self.members)
+
+g= group(15)
+g.display()
+
+
+
+#Non-Parametrized Constructor
+class Strength:
+    def __init__(self):
+        print("No.Of Students Present in the Class is 50")
+
+g= Strength()
+
+
+#Default Constructor
+class Greet:
+    def Greet(self):
+        print("Hi Good Morning Today is Nice Weather")
+
+g= Greet()
+g.Greet()
